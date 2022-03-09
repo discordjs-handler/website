@@ -36,9 +36,9 @@ export const store = createStore<State>({
 		branches: [],
 		file: null,
 		stats: {
-			downloads: `${(0).toLocaleString()}+`,
-			stars: `${(0).toLocaleString()}+`,
-			contributors: `${(0).toLocaleString()}+`,
+			downloads: `${(0).toLocaleString("be")}`,
+			stars: `${(0).toLocaleString("be")}`,
+			contributors: `${(0).toLocaleString("be")}`,
 		},
 		searchIndex: [],
 		searchRef: [],
@@ -101,9 +101,9 @@ export const store = createStore<State>({
 			commit({
 				type: 'setStats',
 				stats: {
-					downloads: `${downloads.toLocaleString()}`,
-					stars: `${stars.toLocaleString()}`,
-					contributors: `${contributors.toLocaleString()}`,
+					downloads: `${downloads.toLocaleString("be")}`,
+					stars: `${stars.toLocaleString("be")}`,
+					contributors: `${contributors.toLocaleString("be")}`,
 				},
 			});
 		},
@@ -289,6 +289,7 @@ export const store = createStore<State>({
 				VoiceState: 'https://discord.js.org/#/docs/main/master/class/VoiceState',
 				Interaction: 'https://discord.js.org/#/docs/main/master/class/Interaction',
 				Permissions: 'https://discord.js.org/#/docs/main/master/class/Permissions',
+				PermissionString: 'https://discord.js.org/#/docs/main/master/class/Permissions',
 			};
 
 			// Add links for everything

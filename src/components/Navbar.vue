@@ -65,7 +65,7 @@
 					</a>
 
 					<a
-						:href="`https://discord.gg/invite/eGZfaWsZgR`"
+						:href="`https://discord.gg/invite/zsTgXs24k2`"
 						class="
 							text-gray-200
 							hover:bg-discord-blurple-630 hover:text-white
@@ -316,7 +316,7 @@
 						/></a>
 
 						<a
-							:href="`https://discord.gg/invite/eGZfaWsZgR`"
+							:href="`https://discord.gg/invite/zsTgXs24k2`"
 							class="
 								text-gray-200
 								hover:bg-discord-blurple-630 hover:text-white
