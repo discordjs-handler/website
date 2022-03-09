@@ -1,7 +1,6 @@
 <template>
 	<div class="bg-discord-blurple-500 py-20">
 		<div class="max-w-3xl sm:mx-auto text-center px-8 sm:px-16 flex flex-col gap-10 md:px-12">
-			<Logo class="filter drop-shadow-lg my-6" />
 			<InstallButton />
 		</div>
 	</div>
@@ -39,7 +38,6 @@ import { computed } from 'vue';
 import { useStore } from '~/store';
 import MainSource from '~/data/MainSource';
 
-import Logo from '~/components/Logo.vue';
 import InstallButton from '~/components/InstallButton.vue';
 import Stats from '~/components/Stats.vue';
 
